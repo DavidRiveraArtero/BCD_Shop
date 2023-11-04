@@ -9,7 +9,7 @@
 
 .box_img{
 
-    background-image: url("../../../public/img/gamer.jpg");
+    background-image: url("/img/gamer.jpg");
     width: 200.25px;
     height: 100.86px;
     border-radius: 12px;
@@ -19,6 +19,6 @@
 }   
 
 h2{
-    text-wrap: wrap;
+    text-wrap: balance;
     font-family: 'Laila', serif;
 }
