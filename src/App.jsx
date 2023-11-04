@@ -13,7 +13,7 @@ function App() {
       <Route path="/element" element={<h1 className="text-black">hola Mundo</h1>}/>
 
     </Routes>
-    <footer className="flex flex-row text-black mt-4 ml-4 mr-4 rounded-sm bg-slate-800 bottom-0 fixed w-full "  style={{justifyContent:'space-between'}}>
+    <footer className="flex flex-row text-black mt-4 ml-4 mr-4 rounded-sm bg-slate-800 bottom-0 fixed w-full p-4 "  style={{justifyContent:'space-between'}}>
       <div className="">1</div>
       <div className=" ">2</div>
       <div className="">3</div>
