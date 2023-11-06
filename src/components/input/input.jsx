@@ -1,7 +1,7 @@
 export function InputP(){
     return(
         <>
-            <section className="flex items-center p-3 ">
+            <section className="flex items-center p-1 w-full">
                 <input type="text" id="input-group-1" className=" bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-7 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Buscar Productos"/>
                 <div className="absolute pl-1">
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 50 50">

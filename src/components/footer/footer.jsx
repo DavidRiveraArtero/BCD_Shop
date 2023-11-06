@@ -5,7 +5,7 @@ export function FooterP(){
     return (
         <>
             <footer className="fixed bottom-0 ">
-                <section className="flex  flex-row justify-between text-white bg-[#36434B] w-screen  p-2">
+                <section className="flex  flex-row justify-between text-black bg-white w-screen  p-2">
                     <IconsP svg={HomeSvg} title={"Home"} isActive={true} />
                     <IconsP svg={Save} title={"Save"} isActive={false}/>
                     <IconsP svg={Save} title={"Carrito"} isActive={false}/>
