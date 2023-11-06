@@ -38,7 +38,7 @@ export function IconsP({svg,title, isActive}){
     return (
         <>
             <Link to={'/'+ ruta.toLowerCase()} name={title} onClick={changeActive} className="btn_footer w-full text-center flex flex-col items-center">
-                <img src={svg} alt="home" width="20%"/>
+                <img loading="lazy" src={svg} alt="home" width="20%"/>
                 <h1>{title}</h1>
             </Link>
         </>
