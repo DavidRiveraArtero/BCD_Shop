@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300&family=Nunito:wght@300&family=Poppins:wght@500&display=swap');
 
-
-.sectionGamer{
+.shadow-box{
     box-shadow: 3px 4px 4px 0px #00000080;
 
 
@@ -18,8 +16,4 @@
     
 }   
 
-h2{
-    text-wrap: balance;
-    font-family: 'Laila', serif;
-}
 

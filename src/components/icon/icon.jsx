@@ -37,9 +37,9 @@ export function IconsP({svg,title, isActive}){
 
     return (
         <>
-            <Link to={'/'+ ruta.toLowerCase()} name={title} onClick={changeActive} className="btn_footer w-full text-center flex flex-col items-center">
-                <img loading="lazy" src={svg} alt="home" width="20%"/>
-                <h1>{title}</h1>
+            <Link to={'/'+ ruta.toLowerCase()} name={title} onClick={changeActive} className="btn_footer w-full text-center flex flex-row  items-center  p-1">
+                <img loading="lazy" src={svg} alt="home" width="10%" className="m-4 justify-center" />
+                <h1 className="text-3xl text_menu text-center">{title}</h1>
             </Link>
         </>
     )
