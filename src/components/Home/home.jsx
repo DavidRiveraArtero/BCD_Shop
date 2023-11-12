@@ -18,8 +18,6 @@ export function Home ({stateMenu}){
                    <CategImp rowSpan={"row-span-2 "} title={"HOME DECORATION"} bg={" bg-home_img"} color={" text-black "}/>
                    <CategImp rowSpan={"col-span-1 "} title={"FRAGANCES"} bg={" bg-fragance_img "} color={" text-black "}/>
                    <CategImp rowSpan={"col-span-1 "} title={"APPLE"} bg={" bg-apple_img"} color={" text-white "}/>
-
-
                 </section>
                 <h1 className="text-black">Apple</h1>
                 <section className="grid grid-cols-2 gap-4  m-4">
